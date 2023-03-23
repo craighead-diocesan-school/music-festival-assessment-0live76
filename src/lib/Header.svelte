@@ -1,3 +1,8 @@
 <header>
-  <h1 class="title">Welcome</h1>
+  <h1 class="title">Sunburst Festival</h1>
 </header>
+
+<style>
+  h1 {
+  }
+</style>
