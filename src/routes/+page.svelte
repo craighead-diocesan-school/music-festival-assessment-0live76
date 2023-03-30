@@ -4,8 +4,11 @@
   import Footer from "$lib/Footer.svelte"
 </script>
 
-<Header />
-<Nav />
+<div class="topImage">
+  <Nav />
+  <Header />
+</div>
+
 <main>
   <h2>General</h2>
   <p>Our festival features a diverse lineup of talented musicians from different genres, sure to satisfy every taste in music. With multiple stages set up throughout the venue, you can easily move from one act to the next, discovering new favorites and enjoying classic hits.</p>
@@ -20,5 +23,10 @@
 <style>
   p {
     padding: 2%;
+  }
+  .topImage {
+    background-image: url("danny-howe-2.jpg");
+    display: block;
+    height: 21rem;
   }
 </style>
