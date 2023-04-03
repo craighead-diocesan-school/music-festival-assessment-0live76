@@ -10,7 +10,7 @@
     color: black;
     font-family: "Farsan", cursive;
     text-transform: uppercase;
-    font-size: 150%;
+    font-size: 170%;
   }
 
   a:hover {

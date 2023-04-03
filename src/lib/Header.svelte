@@ -1,14 +1,11 @@
 <header>
-  <img src="logo.png" alt="" />
-  <h1 class="title">Sunburst Festival</h1>
-  <img src="logo.png" alt="" />
+  <h1 class="title">Sunburst <br /> Festival</h1>
+  <h2 class="subtitle">Welcome to the ultimate music festival experience! <br /> Get ready for a day filled with live music, great food, and unforgettable memories.</h2>
 </header>
 
 <style>
   header {
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
+    margin-top: -3%;
   }
 
   h1 {
@@ -18,11 +15,15 @@
     text-shadow: 3px 3px black;
     font-size: 570%;
     padding-top: 3%;
-    text-align: center;
+    padding-left: 3%;
   }
-
-  img {
-    width: 10%;
-    padding: 1%;
+  h2 {
+    font-family: "Farsan", cursive;
+    color: black;
+    font-size: 150%;
+    margin-top: -2%;
+    text-transform: none;
+    font-weight: normal;
+    padding-left: 3%;
   }
 </style>
