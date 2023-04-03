@@ -16,6 +16,7 @@
   a:hover {
     color: rgb(255, 163, 35);
   }
+
   nav {
     display: flex;
     justify-content: space-between;
