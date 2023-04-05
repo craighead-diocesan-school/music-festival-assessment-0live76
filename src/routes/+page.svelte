@@ -19,15 +19,15 @@
   <div class="columns">
     <div class="column">
       <img class="concertImage" src="colin-lloyd-2.jpg" alt="People facing stage at concert." />
-      <p class="imageCredit">Colin Llyod</p>
+      <p class="imageCredit">&copy; Colin Llyod</p>
     </div>
     <div class="column is-half">
       <img src="danny-howe-2.jpg" alt="People facing stage at concert." />
-      <p class="imageCredit">Danny Howe</p>
+      <p class="imageCredit">&copy; Danny Howe</p>
     </div>
     <div class="column">
       <img class="concertImage" src="colin-lloyd.jpg" alt="People facing stage at concert." />
-      <p class="imageCredit">Colin Llyod</p>
+      <p class="imageCredit">&copy; Colin Llyod</p>
     </div>
   </div>
   <p>But the music is just the beginning. Our festival also boasts an impressive selection of food vendors, offering everything from classic festival fare to more gourmet options. You won't go hungry with the delicious treats and refreshing beverages available throughout the venue.</p>
