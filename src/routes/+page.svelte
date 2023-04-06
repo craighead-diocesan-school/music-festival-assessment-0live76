@@ -13,6 +13,7 @@
   <Header />
 </div>
 <main>
+  <p class="imageCredit top">&copy; Tjis Van Leur</p>
   <h2>General</h2>
   <p>Our festival features a diverse lineup of talented musicians from different genres, sure to satisfy every taste in music. With multiple stages set up throughout the venue, you can easily move from one act to the next, discovering new favorites and enjoying classic hits.</p>
   <p>From up-and-coming artists to established headliners, we have curated an exciting lineup that will keep you dancing and singing along all day long. Our festival is the perfect opportunity to discover new music, see your favorite artists live, and make lasting memories with friends and family.</p>
@@ -36,11 +37,12 @@
   <div class="columns bottom">
     <div class="column">
       <p class="largeText">So don't miss out on this one-of-a-kind music festival experience. Get your tickets now and join us for a day of music, fun, and community. We can't wait to see you there!</p>
+      <a href="pricing">Book Now</a>
     </div>
 
     <div class="column">
       <img src="james-genchi.jpg" alt="People facing stage with colourful confetti." />
-      <p class="imageCredit">James Genchi</p>
+      <p class="imageCredit">&copy; James Genchi</p>
     </div>
   </div>
 </main>
@@ -61,7 +63,7 @@
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 3vw;
     padding-left: 3%;
     padding-top: 2%;
     color: rgb(104, 138, 144);
@@ -72,7 +74,9 @@
     padding-left: 3%;
     font-size: 110%;
   }
-
+  .top {
+    text-align: right;
+  }
   .imageCredit {
     font-size: 90%;
     margin-top: -2%;
@@ -82,6 +86,7 @@
     font-size: 150%;
     font-style: italic;
     padding-top: 8%;
+    padding-bottom: 8%;
   }
   p {
     padding: 1%;
@@ -90,6 +95,23 @@
     font-family: "Noto Sans Zanabazar Square", sans-serif;
     color: black;
   }
+  main {
+    margin-top: 1%;
+  }
+
+  a {
+    border: 2px solid black;
+    padding: 3%;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  a:hover {
+    font-style: italic;
+  }
 
   .column {
     padding: 3%;
@@ -97,5 +119,25 @@
 
   .bottom {
     padding-top: 3%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .topImage {
+      background-image: none;
+    }
+    .top {
+      visibility: hidden;
+    }
+    h2 {
+      font-size: 5vw;
+    }
+    img {
+      width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
   }
 </style>
