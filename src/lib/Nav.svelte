@@ -2,7 +2,7 @@
   <a href="/">Home</a>
   <a href="accommodation">Accommodation</a>
   <a href="acts">Acts</a>
-  <a href="pricing">Tickets</a>
+  <a href="tickets">Tickets</a>
 </nav>
 
 <style>

@@ -13,13 +13,13 @@
   <Header />
 </div>
 <main>
-  <p class="imageCredit top">&copy; Tjis Van Leur</p>
+  <p class="imageCredit topImageCaption">&copy; Tjis Van Leur</p>
   <h2>General</h2>
   <p>Our festival features a diverse lineup of talented musicians from different genres, sure to satisfy every taste in music. With multiple stages set up throughout the venue, you can easily move from one act to the next, discovering new favorites and enjoying classic hits.</p>
   <p>From up-and-coming artists to established headliners, we have curated an exciting lineup that will keep you dancing and singing along all day long. Our festival is the perfect opportunity to discover new music, see your favorite artists live, and make lasting memories with friends and family.</p>
   <div class="columns">
     <div class="column">
-      <img class="concertImage" src="colin-lloyd-2.jpg" alt="People facing stage at concert." />
+      <img src="colin-lloyd-2.jpg" alt="People facing stage at concert." />
       <p class="imageCredit">&copy; Colin Llyod</p>
     </div>
     <div class="column is-half">
@@ -27,17 +27,17 @@
       <p class="imageCredit">&copy; Danny Howe</p>
     </div>
     <div class="column">
-      <img class="concertImage" src="colin-lloyd.jpg" alt="People facing stage at concert." />
+      <img src="colin-lloyd.jpg" alt="DJ holding a microphone in the air." />
       <p class="imageCredit">&copy; Colin Llyod</p>
     </div>
   </div>
   <p>But the music is just the beginning. Our festival also boasts an impressive selection of food vendors, offering everything from classic festival fare to more gourmet options. You won't go hungry with the delicious treats and refreshing beverages available throughout the venue.</p>
   <p>In addition to the music and food, our festival also features a variety of activities to keep you entertained throughout the day. From art installations to merchandise booths, there is something for everyone to enjoy. You can even capture the memories with our festival photo booths and snap a selfie with your favorite artists.</p>
 
-  <div class="columns bottom">
+  <div class="columns bottomColumns">
     <div class="column">
       <p class="largeText">So don't miss out on this one-of-a-kind music festival experience. Get your tickets now and join us for a day of music, fun, and community. We can't wait to see you there!</p>
-      <a href="pricing">Book Now</a>
+      <a href="tickets">Book Now</a>
     </div>
 
     <div class="column">
@@ -58,7 +58,10 @@
     height: 40vw;
     background-position: 0px -120px;
   }
-
+  .topImageCaption {
+    text-align: right;
+    padding-top: 2%;
+  }
   h2 {
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
@@ -68,18 +71,29 @@
     padding-top: 2%;
     color: rgb(104, 138, 144);
   }
+  main {
+    margin-top: 1%;
+  }
 
   p {
-    padding: 2%;
+    padding: 1%;
     padding-left: 3%;
-    font-size: 110%;
+    font-size: 120%;
+    font-family: "Noto Sans Zanabazar Square", sans-serif;
+    color: black;
   }
-  .top {
-    text-align: right;
+
+  .column {
+    padding: 3%;
   }
+
   .imageCredit {
     font-size: 90%;
     margin-top: -2%;
+  }
+
+  .bottomColumns {
+    padding-top: 3%;
   }
 
   .largeText {
@@ -87,16 +101,6 @@
     font-style: italic;
     padding-top: 8%;
     padding-bottom: 8%;
-  }
-  p {
-    padding: 1%;
-    padding-left: 3%;
-    font-size: 110%;
-    font-family: "Noto Sans Zanabazar Square", sans-serif;
-    color: black;
-  }
-  main {
-    margin-top: 1%;
   }
 
   a {
@@ -113,19 +117,13 @@
     font-style: italic;
   }
 
-  .column {
-    padding: 3%;
-  }
-
-  .bottom {
-    padding-top: 3%;
-  }
-
   @media only screen and (max-width: 600px) {
     .topImage {
       background-image: none;
+      height: 0;
+      padding-bottom: 13%;
     }
-    .top {
+    .topImageCaption {
       visibility: hidden;
     }
     h2 {

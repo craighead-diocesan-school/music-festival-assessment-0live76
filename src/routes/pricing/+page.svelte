@@ -1,9 +1,0 @@
-<script>
-  import Header from "$lib/Header.svelte"
-  import Nav from "$lib/Nav.svelte"
-  import Footer from "$lib/Footer.svelte"
-</script>
-
-<svelte:head>
-  <title>Sunburst Festival | Home</title>
-</svelte:head>

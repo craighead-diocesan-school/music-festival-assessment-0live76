@@ -42,9 +42,7 @@
     }
 
     h2 {
-      font-size: 4vw;
-      padding-top: 20%;
-      text-shadow: none;
+      visibility: collapse;
     }
     br.lineBreak {
       display: none;
