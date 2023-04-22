@@ -1,5 +1,4 @@
 <script>
-  import Header from "$lib/Header.svelte"
   import Nav from "$lib/Nav.svelte"
   import Footer from "$lib/Footer.svelte"
 </script>
@@ -35,8 +34,15 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .heading {
+      visibility: visible;
+    }
     h2 {
       font-size: 5vw;
+    }
+    main {
+      text-align: center;
+      padding-left: 0;
     }
   }
 </style>

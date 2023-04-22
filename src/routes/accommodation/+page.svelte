@@ -126,6 +126,7 @@
     }
     h2 {
       font-size: 5vw;
+      padding-top: 2%;
     }
     img {
       width: 90%;

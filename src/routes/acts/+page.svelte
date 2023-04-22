@@ -50,7 +50,9 @@
   </div>
 
   <p>Overall, the music festival offers a diverse and exciting lineup that caters to different tastes and styles. From established headliners to emerging talent, the festival promises a memorable and thrilling musical experience for all attendees.</p>
-  <a href="tickets">Book Now</a>
+  <div class="container">
+    <a href="tickets">Book Now</a>
+  </div>
 </main>
 <Footer />
 
@@ -104,9 +106,15 @@
     padding-top: 5%;
   }
 
+  .container {
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-left: 0;
+  }
+
   a {
     border: 2px solid black;
-    padding: 3%;
+    padding: 2%;
     border-radius: 2px;
     text-transform: uppercase;
     color: black;

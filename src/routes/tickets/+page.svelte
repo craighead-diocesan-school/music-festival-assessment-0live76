@@ -9,13 +9,14 @@
 </svelte:head>
 
 <Nav />
+
 <h2>Tickets</h2>
 <p class="note">Please note that festival-goers must be 15 years of age or older.</p>
 <main>
   <div>
     <form action="/action_page.php">
       <label for="admission">Festival Admission – $200 per person</label>
-      <p>
+      <p class="formSection">
         No. Tickets <select id="ticketNum" name="ticketNum">
           <option value="0">0</option>
           <option value="200">1</option>
@@ -32,7 +33,7 @@
       </p>
 
       <label for="admission">Tent Site – $15 per night</label>
-      <p>
+      <p class="formSection">
         No. Nights Staying <select id="nightsNum" name="nightsNum">
           <option value="0">0</option>
           <option value="15">1</option>
@@ -43,7 +44,7 @@
       </p>
 
       <label for="admission">Tent Site with Tent Provided – $40 per night</label>
-      <p>
+      <p class="formSection">
         No. Nights Staying <select id="nightsNum" name="nightsNum">
           <option value="0">0</option>
           <option value="40">1</option>
@@ -68,6 +69,7 @@
     font-size: 3vw;
     padding-left: 3%;
     color: rgb(104, 138, 144);
+    padding-top: 0;
   }
 
   main {
@@ -75,12 +77,14 @@
     font-family: "Noto Sans Zanabazar Square", sans-serif;
   }
 
-  p {
+  .formSection {
     font-size: 120%;
     padding: 3%;
+    padding-bottom: 4%;
   }
   .note {
     font-size: 90%;
+    padding: 3%;
     padding-top: 0;
   }
   label {
@@ -113,6 +117,14 @@
   @media only screen and (max-width: 600px) {
     h2 {
       font-size: 5vw;
+      padding-top: 10%;
+    }
+    .formSection {
+      padding-bottom: 10%;
+    }
+
+    form {
+      width: 90%;
     }
   }
 </style>

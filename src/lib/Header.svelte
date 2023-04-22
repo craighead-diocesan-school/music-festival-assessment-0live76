@@ -29,6 +29,9 @@
     text-shadow: 2px 2px black;
   }
   @media only screen and (max-width: 600px) {
+    header {
+      padding-bottom: 1%;
+    }
     h1 {
       font-size: 8vw;
       text-align: center;
