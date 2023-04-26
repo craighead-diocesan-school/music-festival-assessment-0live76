@@ -1,11 +1,19 @@
+<script>
+  import { page } from "$app/stores"
+</script>
+
 <nav>
-  <a href="/">Home</a>
-  <a href="accommodation">Accommodation</a>
-  <a href="acts">Acts</a>
-  <a href="tickets">Tickets</a>
+  <a href="/" class:current-page={$page.url.pathname == "/"}>Home</a>
+  <a href="accommodation" class:current-page={$page.url.pathname.includes("accommodation")}>Accommodation</a>
+  <a href="acts" class:current-page={$page.url.pathname.includes("acts")}>Acts</a>
+  <a href="tickets" class:current-page={$page.url.pathname.includes("tickets")}>Tickets</a>
 </nav>
 
 <style>
+  .current-page {
+    color: rgb(255, 163, 35);
+    text-shadow: 2px 2px black;
+  }
   a {
     color: black;
     font-family: "Farsan", cursive;

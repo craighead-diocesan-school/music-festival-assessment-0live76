@@ -32,7 +32,7 @@
         </select>
       </p>
 
-      <label for="admission">Tent Site – $15 per night</label>
+      <label for="tentSite">Tent Site – $15 per night</label>
       <p class="formSection">
         No. Nights Staying <select id="nightsNum" name="nightsNum">
           <option value="0">0</option>
@@ -43,7 +43,7 @@
         </select>
       </p>
 
-      <label for="admission">Tent Site with Tent Provided – $40 per night</label>
+      <label for="siteWithTent">Tent Site with Tent Provided – $40 per night</label>
       <p class="formSection">
         No. Nights Staying <select id="nightsNum" name="nightsNum">
           <option value="0">0</option>
@@ -73,8 +73,9 @@
   }
 
   main {
-    padding-left: 4%;
+    padding-left: 3%;
     font-family: "Noto Sans Zanabazar Square", sans-serif;
+    padding-bottom: 2%;
   }
 
   .formSection {
@@ -83,7 +84,7 @@
     padding-bottom: 4%;
   }
   .note {
-    font-size: 90%;
+    font-size: 120%;
     padding: 3%;
     padding-top: 0;
   }
