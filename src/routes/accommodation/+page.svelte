@@ -10,7 +10,7 @@
 
 <div class="topImage">
   <Nav />
-  <Header />
+  <Header title="Sunburst" />
 </div>
 <main>
   <p class="imageCredit topImageCaption">&copy; Krists Luhaers</p>

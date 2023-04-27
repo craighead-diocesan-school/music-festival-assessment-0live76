@@ -103,16 +103,17 @@
   }
   a {
     text-transform: uppercase;
+    font-size: 120%;
     color: black;
     background-color: rgb(255, 163, 35);
     border: 1px solid black;
     border-radius: 3px;
-    padding: 1%;
+    padding: 2%;
     padding-left: 2%;
     padding-right: 2%;
   }
   a:hover {
-    font-style: italic;
+    text-shadow: 2px 2px white;
   }
 
   @media only screen and (max-width: 600px) {
