@@ -51,7 +51,7 @@
 
 <style>
   .topImage {
-    background-image: url("tijs-van-leur.jpg");
+    background-image: url("/tijs-van-leur.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 120vw;

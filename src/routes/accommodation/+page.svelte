@@ -48,7 +48,7 @@
 
 <style>
   .topImage {
-    background-image: url("krists-luhaers.jpg");
+    background-image: url("/krists-luhaers.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw;
