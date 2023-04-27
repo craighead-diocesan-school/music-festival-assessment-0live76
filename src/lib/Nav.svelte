@@ -33,6 +33,7 @@
     padding-right: 3%;
     padding-top: 2%;
     padding-bottom: 4%;
+    z-index: 2;
   }
 
   @media only screen and (max-width: 600px) {

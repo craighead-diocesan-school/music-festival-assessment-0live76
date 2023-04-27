@@ -1,5 +1,9 @@
+<script>
+  export let title
+</script>
+
 <header>
-  <h1 class="title">Sunburst <br class="lineBreak" /> Festival</h1>
+  <h1 class="title">{title} <br class="lineBreak" /> Festival</h1>
   <h2 class="subtitle">Welcome to the ultimate music festival experience! <br /> Get ready for a day filled with live music, great food, and unforgettable memories.</h2>
 </header>
 
