@@ -58,7 +58,7 @@
 
 <style>
   .topImage {
-    background-image: url("danny-howe.jpg");
+    background-image: url("/danny-howe.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw;
