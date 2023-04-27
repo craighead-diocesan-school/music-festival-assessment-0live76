@@ -11,8 +11,8 @@
 
 <style>
   .current-page {
-    color: rgb(255, 163, 35);
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: 2px 2px rgb(255, 163, 35);
   }
   a {
     color: black;
